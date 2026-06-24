@@ -3,6 +3,8 @@ fac :: Integer -> Integer
 fac x = foldl1 (*) [1..x]
 
 -- Convert an integer to a list of its constituent digits.
+-- Convoluted, but perhaps more aesthetically pleasing as an integer
+-- remains an integer.
 intToList :: Integer -> [Integer]
 intToList = intToList' 1
 
