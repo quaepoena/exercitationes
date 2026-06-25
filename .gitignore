@@ -25,3 +25,6 @@ cabal.project.local~
 input
 input-test
 .dir-locals.el
+
+tecs/tools/
+tecs/projects/proj-orig/
